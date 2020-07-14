@@ -88,11 +88,31 @@ Arrays are meant to store multiple values in a single variable. But what can you
 ### Iterating Over an Array
 Two options to start with are a `for loop` and the `forEach` method.
 
-Let's start with a `for loop`:
+#### For Loop:
+A `for loop` has 3 statements within it:
+1. `let i = 0` - this runs before the loop starts
+2. `i < guardian.length` - a conditional statement that check to see if `i` is less then the length of the array
+3. `i++` which increases the value of `i` after each iteration of the loop
+
+The declaration block of this loop is the console logging each index of the variable `guardian` based off the value of `i`
 ```js
 let guardians = ['Groot', 'Star Lord', 'Gamora', 'Mantis']
 
 for (let i = 0; i < guardians.length; i++) {
     console.log(guardians[i])
+    // output:
+        // Groot
+        // Star Lord
+        // Gamora
+        // Mantis
 }
+```
+
+#### ForEach
+The `forEach` method operate the same ways as a `for loop`.  runs a provided function once for each array element.
+
+
+```js
+let guardians = ['Groot', 'Star Lord', 'Gamora', 'Mantis']
+guardians.forEach(guardian => console.log(guardian))
 ```
