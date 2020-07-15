@@ -1,4 +1,19 @@
-# Arrays
+# Training - Arrays
+**Approx. Time:** 45min
+
+## Objective
+A Quick synopsis of what will be covered in the training.
+
+## Key Takeaways
+A bulleted list of key concepts that students should understand after completion of this training.
+
+* Key Take away 1
+* Key Take away 2
+* Key Take away 3
+* Key Take away 4
+* Key Take away 5
+
+## Getting Started
 In the context of Javascript Arrays are list-like objects. It is similar to what other languages might call a list, stack, or queue.
 
 Arrays are used to store multiple values in a single variable.
