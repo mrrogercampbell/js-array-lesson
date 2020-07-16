@@ -196,6 +196,10 @@ let reducer = (acc, cur) => acc * cur
 
 console.log(array.reduce(reducer))
 ```
+
+### Map Method
+
+
 ### Push Method
 The `push method` allow you to add as many elements as you would like to an array and returns the new length. This method does affect the original array.
 
